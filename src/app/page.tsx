@@ -7,7 +7,7 @@ export default function Home() {
         <div className="relative max-w-4xl mx-auto px-6 py-24 sm:py-32">
           <div className="text-center">
             <div className="text-7xl sm:text-8xl font-light text-amber-400 mb-6">
-              Λ
+              λ
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
               The Logos Project
