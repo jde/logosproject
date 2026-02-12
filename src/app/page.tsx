@@ -24,9 +24,12 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-amber-400 mb-8">
           The Mission
         </h2>
-        <p className="text-slate-300 mb-8">
+        <p className="text-slate-300 mb-12">
           The Logos Project builds platforms that track the flow of discourse across domains where language shapes outcomes. We strive to maintain a comprehensive view of these domains so that we can study the ways in which the language can be traced to concrete outcomes, measured in business, politics, legislation and beyond.
         </p>
+
+        <h3 className="text-xl font-semibold text-white mb-2">Current Focus Areas</h3>
+        <p className="text-slate-400 mb-8">We are currently actively tracking information across these domains:</p>
 
         <div className="space-y-8">
           {/* Energy & Climate */}
@@ -40,8 +43,7 @@ export default function Home() {
                 <p className="text-slate-300">
                   Monitoring the global conversation around renewable energy —
                   tracking political, economic, and social dynamics as the world
-                  navigates the energy transition. Understanding how discourse
-                  shapes policy and investment decisions.
+                  navigates the energy transition. Producing actionable information for the renewable energy initiatives.
                 </p>
               </div>
             </div>
@@ -83,7 +85,7 @@ export default function Home() {
                 <p className="text-slate-300">
                   Deep analysis of how scientific testimony translates to
                   legislative action. Understanding what makes expert
-                  communication effective — and what gets lost in translation.
+                  communication effective — and what gets lost in politics.
                 </p>
               </div>
             </div>
