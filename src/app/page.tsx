@@ -203,7 +203,7 @@ export default function Home() {
           About the project
         </h2>
         <p className="text-lg text-slate-300 leading-relaxed">
-          The ancient Greeks understood <em>logos</em> as the principle of
+          The ancient Greeks understood λόγος as the principle of
           reason and order underlying reality — the rational structure behind
           existence. Since ancient times, humans have dramatically increased our impact on reality. We now have the ability to track the discourse surrounding these impacts at scale. We continue that tradition, tracking how language, properly
           deployed, becomes action and shapes the world.
