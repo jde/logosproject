@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Logos — Where Language Meets Action",
+  title: "The Logos Project — Language, Action, Discourse, Reality",
   description:
-    "An intelligence platform tracking discourse that shapes reality. Energy policy, public health, scientific consensus, and democratic processes.",
+    "Studying the intersection of language and action, discourse and reality. Tracking how language shapes outcomes in business, politics, and legislation.",
   keywords: [
     "logos",
     "intelligence",

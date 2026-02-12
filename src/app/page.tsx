@@ -10,32 +10,13 @@ export default function Home() {
               Λ
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-              Logos
+              The Logos Project
             </h1>
             <p className="text-xl sm:text-2xl text-slate-400 max-w-2xl mx-auto">
-              Where language meets action — tracking discourse that shapes
-              reality.
+              Studying the intersection of language and action, discourse and reality.
             </p>
           </div>
         </div>
-      </section>
-
-      {/* What is Logos */}
-      <section className="max-w-4xl mx-auto px-6 py-16">
-        <h2 className="text-2xl font-semibold text-amber-400 mb-6">
-          What is Logos?
-        </h2>
-        <p className="text-lg text-slate-300 leading-relaxed mb-4">
-          <strong className="text-white">Logos</strong> (λόγος) — the ancient
-          Greek word for &ldquo;word,&rdquo; &ldquo;reason,&rdquo; and
-          &ldquo;order&rdquo; — represents information that effects reality.
-          Ideas that lead to action. Facts that drive reason.
-        </p>
-        <p className="text-lg text-slate-300 leading-relaxed">
-          Logos is an intelligence platform that tracks the flow of discourse
-          across domains where language shapes outcomes: energy policy, public
-          health, scientific consensus, and democratic processes.
-        </p>
       </section>
 
       {/* The Mission */}
@@ -44,8 +25,7 @@ export default function Home() {
           The Mission
         </h2>
         <p className="text-slate-300 mb-8">
-          We maintain a <strong className="text-white">comprehensive view</strong> of
-          critical domains:
+          The Logos Project builds platforms that track the flow of discourse across domains where language shapes outcomes. We strive to maintain a comprehensive view of these domains so that we can study the ways in which the language can be traced to concrete outcomes, measured in business, politics, legislation and beyond.
         </p>
 
         <div className="space-y-8">
