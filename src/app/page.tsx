@@ -210,8 +210,27 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Capabilities */}
+      <section className="max-w-4xl mx-auto px-6 py-10">
+        <h2 className="text-2xl font-semibold text-amber-400 mb-6">
+          Capabilities
+        </h2>
+        <p className="text-lg text-slate-300 leading-relaxed">
+          The Logos Project utilizes a variety of cloud services and a private datacenter, allowing us to handle both public and private datasets.
+        </p>
+      </section>
+
       {/* Footer */}
       <footer className="max-w-4xl mx-auto px-6 py-10 border-t border-slate-800">
+        <p className="text-slate-400 text-sm text-center mb-4">
+          For more information, or to start a conversation about our work, please don&apos;t hesitate to{" "}
+          <a
+            href="mailto:hello@logosproject.xyz"
+            className="text-amber-400 hover:text-amber-300 underline underline-offset-2"
+          >
+            reach out
+          </a>.
+        </p>
         <p className="text-slate-600 text-xs text-center">
           © {new Date().getFullYear()} Logos Project
         </p>
