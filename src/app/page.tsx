@@ -24,73 +24,9 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-amber-400 mb-8">
           The Mission
         </h2>
-        <p className="text-slate-300 mb-12">
+        <p className="text-slate-300">
           The Logos Project builds platforms that track the flow of discourse across domains where language shapes outcomes. We strive to maintain a comprehensive view of these domains so that we can study the ways in which the language can be traced to concrete outcomes, measured in business, politics, legislation and beyond.
         </p>
-
-        <h3 className="text-xl font-semibold text-white mb-2">Current Focus Areas</h3>
-        <p className="text-slate-400 mb-8">We are currently actively tracking information across these domains:</p>
-
-        <div className="space-y-8">
-          {/* Energy & Climate */}
-          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">⚡</span>
-              <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
-                  Energy & Climate Intelligence
-                </h3>
-                <p className="text-slate-300">
-                  Monitoring the global conversation around renewable energy —
-                  tracking political, economic, and social dynamics as the world
-                  navigates the energy transition. Producing actionable information for the renewable energy initiatives.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Misinformation Watch */}
-          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">🛡️</span>
-              <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
-                  Misinformation Watch
-                </h3>
-                <p className="text-slate-300 mb-3">
-                  Identifying misleading information that operates through
-                  psychological manipulation or fallacious reasoning — then
-                  disarming those techniques. We deconstruct the rhetoric to
-                  reveal the logical gaps, presenting claims in a way that
-                  clearly exposes their lack of cogency.
-                </p>
-                <p className="text-slate-400 text-sm italic">
-                  Think of it as <strong>inoculation</strong>: just as an inert
-                  virus builds immunity to the live one, exposure to
-                  deconstructed misinformation builds resistance to the real
-                  thing.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Science-to-Policy */}
-          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">🔬</span>
-              <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
-                  Science-to-Policy Translation
-                </h3>
-                <p className="text-slate-300">
-                  Deep analysis of how scientific testimony translates to
-                  legislative action. Understanding what makes expert
-                  communication effective — and what gets lost in politics.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Methodology */}
@@ -192,6 +128,75 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Current Focus Areas */}
+      <section className="max-w-4xl mx-auto px-6 py-16">
+        <h2 className="text-2xl font-semibold text-amber-400 mb-2">
+          Current Focus Areas
+        </h2>
+        <p className="text-slate-400 mb-8">We are currently actively tracking information across these domains:</p>
+
+        <div className="space-y-8">
+          {/* Energy & Climate */}
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">⚡</span>
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Energy & Climate Intelligence
+                </h3>
+                <p className="text-slate-300">
+                  Monitoring the global conversation around renewable energy —
+                  tracking political, economic, and social dynamics as the world
+                  navigates the energy transition. Producing actionable information for the renewable energy initiatives.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Misinformation Watch */}
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🛡️</span>
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Misinformation Watch
+                </h3>
+                <p className="text-slate-300 mb-3">
+                  Identifying misleading information that operates through
+                  psychological manipulation or fallacious reasoning — then
+                  disarming those techniques. We deconstruct the rhetoric to
+                  reveal the logical gaps, presenting claims in a way that
+                  clearly exposes their lack of cogency.
+                </p>
+                <p className="text-slate-400 text-sm italic">
+                  Think of it as <strong>inoculation</strong>: just as an inert
+                  virus builds immunity to the live one, exposure to
+                  deconstructed misinformation builds resistance to the real
+                  thing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Science-to-Policy */}
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">🔬</span>
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Science-to-Policy Translation
+                </h3>
+                <p className="text-slate-300">
+                  Deep analysis of how scientific testimony translates to
+                  legislative action. Understanding what makes expert
+                  communication effective — and what gets lost in politics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About the project */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-2xl font-semibold text-amber-400 mb-6">
@@ -207,11 +212,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="max-w-4xl mx-auto px-6 py-16 border-t border-slate-800">
-        <p className="text-slate-500 text-sm text-center">
-          Logos is under active development. The landing page and research
-          outputs are public; the full application is currently private.
-        </p>
-        <p className="text-slate-600 text-xs text-center mt-4">
+        <p className="text-slate-600 text-xs text-center">
           © {new Date().getFullYear()} Logos Project
         </p>
       </footer>
