@@ -205,7 +205,7 @@ export default function Home() {
         <p className="text-lg text-slate-300 leading-relaxed">
           The ancient Greeks understood λόγος as the principle of
           reason and order underlying reality — the rational structure behind
-          existence. Since ancient times, humans have dramatically increased our impact on reality. We now have the ability to track the discourse surrounding these impacts at scale. We continue that tradition, tracking how language, properly
+          existence. Since ancient times, humans have dramatically increased our impact on reality. We now have the ability to track the discourse surrounding these impacts at scale. We study logos in a modern context, tracking how language, properly
           deployed, becomes action and shapes the world.
         </p>
       </section>
