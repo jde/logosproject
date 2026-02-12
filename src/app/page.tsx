@@ -216,7 +216,7 @@ export default function Home() {
           Capabilities
         </h2>
         <p className="text-lg text-slate-300 leading-relaxed">
-          The Logos Project utilizes a variety of cloud services and a private datacenter, allowing us to handle both public and private datasets.
+          The Logos Project utilizes a variety of cloud services and a private datacenter, allowing us to handle both public and private datasets. We are not equipped to handle sensitive or classified information at this time.
         </p>
       </section>
 
