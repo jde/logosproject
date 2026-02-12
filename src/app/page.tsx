@@ -93,19 +93,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Data Provenance */}
+      {/* Methodology */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-2xl font-semibold text-amber-400 mb-6">
-          Data Provenance: Trust Through Transparency
+          Methodology
         </h2>
-        <p className="text-lg text-slate-300 leading-relaxed mb-8">
-          In a world drowning in information,{" "}
-          <strong className="text-white">
-            knowing where data comes from matters as much as the data itself.
-          </strong>
-        </p>
         <p className="text-slate-300 mb-8">
-          Logos implements the{" "}
+          We implement the{" "}
           <a
             href="https://www.w3.org/TR/prov-dm/"
             className="text-amber-400 hover:text-amber-300 underline underline-offset-2"
@@ -118,87 +112,87 @@ export default function Home() {
           Every piece of information in Logos carries its complete lineage.
         </p>
 
-        <h3 className="text-xl font-semibold text-white mb-4">
-          Why Provenance Matters
-        </h3>
-        <ul className="space-y-3 text-slate-300 mb-8">
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Combating Misinformation</strong> —
-              When tracking false narratives, you need to prove the chain of
-              evidence. Who said what, when, and where did they get it?
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Research Integrity</strong> —
-              Academic and policy research requires citations. Logos maintains
-              source attribution at every step of extraction and transformation.
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Reproducibility</strong> — Any
-              claim in Logos can be traced back to its original source, through
-              every processing step.
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Audit Trails</strong> — When
-              information influences decisions, stakeholders need to verify the
-              path from raw data to insight.
-            </span>
-          </li>
-        </ul>
+        <div className="space-y-8">
+          {/* Why Provenance Matters */}
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 className="text-xl font-semibold text-white mb-4">
+              Why Provenance Matters
+            </h3>
+            <ul className="space-y-3 text-slate-300">
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Combating Misinformation</strong> —
+                  When tracking false narratives, you need to prove the chain of
+                  evidence. Who said what, when, and where did they get it?
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Research Integrity</strong> —
+                  Academic and policy research requires citations. Logos maintains
+                  source attribution at every step of extraction and transformation.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Reproducibility</strong> — Any
+                  claim in Logos can be traced back to its original source, through
+                  every processing step.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Audit Trails</strong> — When
+                  information influences decisions, stakeholders need to verify the
+                  path from raw data to insight.
+                </span>
+              </li>
+            </ul>
+          </div>
 
-        <h3 className="text-xl font-semibold text-white mb-4">
-          The PROV Model
-        </h3>
-        <p className="text-slate-300 mb-4">
-          Every document, entity, and insight in Logos is connected through
-          three core concepts:
-        </p>
-        <ul className="space-y-2 text-slate-300 mb-4">
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Entities</strong> — Things that
-              exist: documents, extracted facts, computed summaries
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Activities</strong> — Things that
-              happen: ingestion, extraction, classification, linking
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <span className="text-amber-400 mt-1">•</span>
-            <span>
-              <strong className="text-white">Agents</strong> — Who or what is
-              responsible: sources, algorithms, human reviewers
-            </span>
-          </li>
-        </ul>
-        <p className="text-slate-400 text-sm">
-          This isn&apos;t just metadata — it&apos;s a complete graph of
-          responsibility and derivation. When Logos says &ldquo;Organization X
-          made Claim Y on Date Z,&rdquo; you can trace that assertion back
-          through the extraction activity, to the source document, to the
-          original publication.
-        </p>
+          {/* The PROV Model */}
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 className="text-xl font-semibold text-white mb-4">
+              The PROV Model
+            </h3>
+            <p className="text-slate-300 mb-4">
+              PROV-DM provides a standardized way to represent the history of data. In Logos, every document, extracted claim, and derived insight is linked through a directed graph that answers: <em>Where did this come from? How was it transformed? Who is responsible?</em>
+            </p>
+            <ul className="space-y-3 text-slate-300 mb-4">
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Entities</strong> — Data objects at any stage: source documents, extracted claims, entity mentions, computed analyses, and final reports.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Activities</strong> — Transformations that create or modify entities: document ingestion, NLP extraction, entity resolution, claim verification, and summarization.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Agents</strong> — The actors responsible: original publishers, news organizations, automated pipelines, LLM processors, and human reviewers.
+                </span>
+              </li>
+            </ul>
+            <p className="text-slate-400 text-sm">
+              This creates a complete accountability graph. When Logos reports &ldquo;Organization X made Claim Y on Date Z,&rdquo; you can trace that assertion through every extraction and transformation step, back to the original publication — with full transparency into the methods used.
+            </p>
+          </div>
+        </div>
       </section>
 
-      {/* Philosophy */}
+      {/* About the project */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-2xl font-semibold text-amber-400 mb-6">
-          Philosophy
+          About the project
         </h2>
         <p className="text-lg text-slate-300 leading-relaxed">
           The ancient Greeks understood <em>logos</em> as the principle of
