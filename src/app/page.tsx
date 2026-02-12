@@ -113,11 +113,47 @@ export default function Home() {
         </p>
 
         <div className="space-y-8">
+          {/* The PROV Model */}
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+            <h3 className="text-xl font-semibold text-white mb-4">
+              The PROV Model
+            </h3>
+            <p className="text-slate-300 mb-4">
+              PROV-DM provides a standardized way to represent the history of data. In Logos, every document, extracted claim, and derived insight is linked through a directed graph that answers: <em>Where did this come from? How was it transformed? Who is responsible?</em>
+            </p>
+            <ul className="space-y-3 text-slate-300 mb-4">
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Entities</strong> — Data objects at any stage: source documents, extracted claims, entity mentions, computed analyses, and final reports.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Activities</strong> — Transformations that create or modify entities: document ingestion, NLP extraction, entity resolution, claim verification, and summarization.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 mt-1">•</span>
+                <span>
+                  <strong className="text-white">Agents</strong> — The actors responsible: original publishers, news organizations, automated pipelines, LLM processors, and human reviewers.
+                </span>
+              </li>
+            </ul>
+            <p className="text-slate-400 text-sm">
+              This creates a complete accountability graph. When Logos reports &ldquo;Organization X made Claim Y on Date Z,&rdquo; you can trace that assertion through every extraction and transformation step, back to the original publication — with full transparency into the methods used.
+            </p>
+          </div>
+
           {/* Why Provenance Matters */}
           <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
             <h3 className="text-xl font-semibold text-white mb-4">
               Why Provenance Matters
             </h3>
+            <p className="text-slate-300 mb-4">
+              Any authority of the claims of the Logos Project fall through directly to the source material of the claims combined with the logical validity of the ways that we handle the information presented in that material. The PROV model is the most rigorous model we could find that combines both source attribution and chain of custody.
+            </p>
             <ul className="space-y-3 text-slate-300">
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 mt-1">•</span>
@@ -152,39 +188,6 @@ export default function Home() {
                 </span>
               </li>
             </ul>
-          </div>
-
-          {/* The PROV Model */}
-          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
-            <h3 className="text-xl font-semibold text-white mb-4">
-              The PROV Model
-            </h3>
-            <p className="text-slate-300 mb-4">
-              PROV-DM provides a standardized way to represent the history of data. In Logos, every document, extracted claim, and derived insight is linked through a directed graph that answers: <em>Where did this come from? How was it transformed? Who is responsible?</em>
-            </p>
-            <ul className="space-y-3 text-slate-300 mb-4">
-              <li className="flex items-start gap-3">
-                <span className="text-amber-400 mt-1">•</span>
-                <span>
-                  <strong className="text-white">Entities</strong> — Data objects at any stage: source documents, extracted claims, entity mentions, computed analyses, and final reports.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-amber-400 mt-1">•</span>
-                <span>
-                  <strong className="text-white">Activities</strong> — Transformations that create or modify entities: document ingestion, NLP extraction, entity resolution, claim verification, and summarization.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-amber-400 mt-1">•</span>
-                <span>
-                  <strong className="text-white">Agents</strong> — The actors responsible: original publishers, news organizations, automated pipelines, LLM processors, and human reviewers.
-                </span>
-              </li>
-            </ul>
-            <p className="text-slate-400 text-sm">
-              This creates a complete accountability graph. When Logos reports &ldquo;Organization X made Claim Y on Date Z,&rdquo; you can trace that assertion through every extraction and transformation step, back to the original publication — with full transparency into the methods used.
-            </p>
           </div>
         </div>
       </section>
