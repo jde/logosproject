@@ -20,7 +20,7 @@ export default function Home() {
       </section>
 
       {/* The Mission */}
-      <section className="max-w-4xl mx-auto px-6 py-10">
+      <section className="max-w-4xl mx-auto px-6 py-5">
         <h2 className="text-2xl font-semibold text-amber-400 mb-8">
           The Mission
         </h2>
@@ -30,7 +30,7 @@ export default function Home() {
       </section>
 
       {/* Methodology */}
-      <section className="max-w-4xl mx-auto px-6 py-10">
+      <section className="max-w-4xl mx-auto px-6 py-5">
         <h2 className="text-2xl font-semibold text-amber-400 mb-6">
           Methodology
         </h2>
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Current Focus Areas */}
-      <section className="max-w-4xl mx-auto px-6 py-10">
+      <section className="max-w-4xl mx-auto px-6 py-5">
         <h2 className="text-2xl font-semibold text-amber-400 mb-2">
           Current Focus Areas
         </h2>
@@ -198,7 +198,7 @@ export default function Home() {
       </section>
 
       {/* About the project */}
-      <section className="max-w-4xl mx-auto px-6 py-10">
+      <section className="max-w-4xl mx-auto px-6 py-5">
         <h2 className="text-2xl font-semibold text-amber-400 mb-6">
           About the project
         </h2>
@@ -211,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* Capabilities */}
-      <section className="max-w-4xl mx-auto px-6 py-10">
+      <section className="max-w-4xl mx-auto px-6 py-5">
         <h2 className="text-2xl font-semibold text-amber-400 mb-6">
           Capabilities
         </h2>
@@ -221,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-4xl mx-auto px-6 py-10 border-t border-slate-800">
+      <footer className="max-w-4xl mx-auto px-6 py-5 border-t border-slate-800">
         <p className="text-slate-400 text-sm text-center mb-4">
           For more information, or to start a conversation about our work, please don&apos;t hesitate to{" "}
           <a
