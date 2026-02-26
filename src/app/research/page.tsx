@@ -109,8 +109,31 @@ export default function ResearchPage() {
           </div>
         </div>
 
+        {/* Documentation */}
+        <div className="mt-12">
+          <h3 className="text-lg font-semibold text-amber-400 mb-4">
+            Technical Documentation
+          </h3>
+          <a
+            href="/research/architecture"
+            className="block bg-slate-800/30 rounded-lg p-4 border border-slate-700/50 hover:border-amber-400/30 transition-colors"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="font-medium text-white">
+                  System Architecture — v2.0.0
+                </div>
+                <div className="text-slate-400 text-sm">
+                  Technical architecture document describing the Logos platform
+                </div>
+              </div>
+              <span className="text-amber-400">→</span>
+            </div>
+          </a>
+        </div>
+
         {/* Quick Stats */}
-        <div className="mt-12 bg-slate-800/30 rounded-xl p-6 border border-slate-700/50">
+        <div className="mt-8 bg-slate-800/30 rounded-xl p-6 border border-slate-700/50">
           <h3 className="text-lg font-semibold text-amber-400 mb-4">
             Legislative Analysis Progress
           </h3>
