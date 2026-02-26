@@ -231,8 +231,16 @@ export default function Home() {
             reach out
           </a>.
         </p>
-        <p className="text-slate-600 text-xs text-center">
+        <p className="text-slate-600 text-xs text-center mb-2">
           © {new Date().getFullYear()} Logos Project
+        </p>
+        <p className="text-center">
+          <a
+            href="/login"
+            className="text-slate-700 hover:text-slate-500 text-xs"
+          >
+            Research Portal
+          </a>
         </p>
       </footer>
     </main>
